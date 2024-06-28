@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.light
+{
+    background-color:white;
+    color: black;
+}
+.dark
+{
+    background-color: black;
+    color: white;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:rgb(25, 24, 24);
+    position: relative; 
+}
+
+.btn {
+    font-weight: bold;
+    margin: 0px 5px;
+    background-color: white;
+    border: 1px solid black ;
+    border-radius: 5px;
+    width: 80px;
+    transition: 3s ease;
+}
+.btn:hover{
+    transform: rotate(1.05);
+    background-color: red;
+    color: white;
+}
+
+
+.top-section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:rgb(25, 24, 24);
+}
+.watch{
+    color: white;
+    text-align: center;
+}
+.watch h1 i{
+    color: red;
+}
+.top-section2 ul li{
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+    cursor:pointer;
+    margin-right: 10px;
+
+
+}
+.top-section2 select{
+    border-radius: 6px;
+    width: 70px;
+    cursor: pointer;
+}
+.top-section2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+input{
+    border-radius: 10px;
+}
+/* Sign POPUP Section */
+
+#sin{
+    display:none;
+    position:absolute;
+    
+    
+}
+.signe{
+    display: grid;
+    margin: 10px;
+    
+    justify-content: center;
+
+}
+.sign-center{
+    width: 450px;
+    background-color:rgb(25, 24, 24);
+    color: white;
+   padding: 10px;
+    border-radius: 10px;
+    transition: all 2s ease;
+    
+}
+
+.sign-center:hover{
+    transform: scale(1.19);
+    background-color: rgb(156, 6, 6);
+}
+.close{
+    width: 30px;
+    float: right;
+    background-color:rgb(25, 24, 24);
+    color: white;
+    border: rgb(25, 24, 24);
+   transition: all 2s ease;
+   border-radius: 5px;
+}
+.close:hover{
+    transform: scale(1.01);
+    color: red;
+}
+
+.sign-center form{
+    display: grid;
+    grid-template-columns: repeat(2,35%);
+    justify-content: center;
+    margin-top: 20px;
+    gap: 5px;
+}
+.Continu {
+    margin-top: 5px;
+    width: 130px;
+    margin-left: 210px;
+    color: white;
+    background-color:rgb(25, 24, 24);
+    border: 1px rgb(25, 24, 24);
+    border-radius: 5px;
+    transition: all 1s ease;
+    
+}
+.Continu:hover{
+    transform: scale(1.01);
+    color: red;
+}
+#pass-show{
+    border-radius: 5px ;
+    background-color:rgb(25, 24, 24);
+    border: 1px rgb(25, 24, 24);
+    color: white;
+    width: 50px;
+    transition: all 1s ease;
+}
+#pass-show:hover{
+    transform: scale(1.01);
+    color: red;
+}
+
+
+
+/* Java Script  */
+
+.center{
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(18, 18, 18);
+    
+ 
+
+}
+/* Series Movies */
+.Action-film {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.film-1{
+    box-shadow: 3px 3px 3px 3px rgb(198, 214, 216);
+    border:1px solid black;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    transition: all 3s ease;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+.film-1:hover{
+    transform: scale(1.05);
+    background-color:white;
+    color: black;
+}
+.film-1 img {
+    height: 200px;
+    width: 150px;
+
+}
+.film-1 h3{
+    font-size: 14px;
+}
+.film-1 h1{
+    font-size: 20px;
+}
+.film-1 button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.film-1 button a{
+    text-decoration: none;
+    color: black;
+    
+}
+.film-1 button a:hover{
+    color: red;
+    
+}
+.film-1  a {
+    text-decoration: none;
+    color: red;
+    
+}
+
+/* Action Movies css */
+.Spy-film {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.action-movies{
+    box-shadow: 3px 3px 3px 3px rgb(198, 214, 216);
+    border:1px solid black;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    transition: all 3s ease;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+.action-movies:hover{
+    transform: scale(1.05);
+    
+    background-color:white;
+    color: black;
+}
+.action-movies img {
+    height: 200px;
+    width: 150px;
+
+}
+.action-movies h3{
+    font-size: 14px;
+}
+.action-movies h1{
+    font-size: 20px;
+}
+.action-movies button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.action-movies button a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* Horror Movies css */
+.Horror-film {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.Horror-movies{
+    box-shadow: 3px 3px 3px 3px rgb(198, 214, 216);
+    border:1px solid black;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    transition: all 3s ease;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+.Horror-movies:hover{
+    transform: scale(1.05);
+  
+    background-color:white;
+    color: black;
+}
+.Horror-movies img {
+    height: 200px;
+    width: 150px;
+
+}
+.Horror-movies h3{
+    font-size: 14px;
+}
+.Horror-movies h1{
+    font-size: 20px;
+}
+.Horror-movies button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.Horror-movies button a{
+    text-decoration: none;
+    color: black;
+    
+}
+
